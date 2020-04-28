@@ -1,0 +1,38 @@
+#filter(-)
+
+filter(-), which is used to filter the elements in the array based on condition, which return array.
+Ex:
+
+var array=[10,20,30];
+array.filter(function(value,index)}
+return value > 15
+})
+Result: [20,30]
+array.filter(function(value,index)}
+return value > 25
+})
+Result: [30]
+
+
+#map(-)
+
+map(-), if you want to perform same oparaton on each and every element in the array , then go with map.
+Ex:
+
+var array=[1,2,3,4,5];
+array.map(function(value,index)}
+return value+1
+})
+Result:[2,3,4,5,6]
+
+#reduce(-)
+
+reduce(-), if you want to convert multiple elements into a single variable.
+Ex:
+
+var array=[1,2,3,4,5];
+array.reduce(function(initVal,value)}
+initVal=initVal+value
+return initVal
+})
+Result:15
